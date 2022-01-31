@@ -1,0 +1,118 @@
+body
+{
+	background-color: #cccccc;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25px;
+	margin-bottom: -25px;
+}
+
+
+#calosc
+{
+	width: 1000px;
+	height: 1320px;
+	background-color: #f2f2f2;
+}
+
+.topbar
+{
+	height: 70px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#logo
+{
+	padding: 22px;
+	margin-left: 20px;
+}
+
+#menu
+{
+	color: black;
+	margin-left: 880px;
+	margin-top: -80px;
+}
+
+#menu a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover
+{
+	color: #76a0ef;
+}
+
+.podzial
+{
+	height: 540px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#text
+{
+	width: 50%;
+	height: 440px;
+	float: left;
+	color: black;
+	margin-left: 80px;
+	margin-top: 80px;
+	font-size: 22px;
+}
+
+#photo
+{
+	width: 42%;
+	height: 540px;
+	float: left;
+	margin-top: -620px;
+	margin-left: 520px;
+}
+
+p span 
+{
+  display: block;
+}
+
+#photo img
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+}
+
+.text_dwa
+{
+	color: black;
+	text-align: justify;
+	margin-top: -40px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+#border-bottom3
+{
+	border-bottom: 1px solid #cccccc;
+}
+
+#footer
+{
+	width: 1000px;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+}
+ 

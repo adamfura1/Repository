@@ -1,0 +1,168 @@
+body
+{
+	background-color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25px;
+	margin-bottom: -25px;
+}
+
+#page
+{
+	width: 1000px;
+	height: 1355px;
+	background-color: white;
+}
+
+.topbar
+{
+	height: 70px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#logo
+{
+	padding: 22px;
+	margin-left: 20px;
+}
+
+#menu
+{
+	color: black;
+	margin-left: 880px;
+	margin-top: -80px;
+}
+
+#menu a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover
+{
+	color: #76a0ef;
+}
+
+.division
+{
+	height: 540px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#text
+{
+	width: 50%;
+	height: 440px;
+	float: left;
+	color: black;
+	margin-left: 80px;
+	margin-top: 80px;
+	font-size: 22px;
+}
+
+#photo
+{
+	width: 42%;
+	height: 540px;
+	float: left;
+	margin-top: -620px;
+	margin-left: 520px;
+}
+
+p span 
+{
+  display: block;
+}
+
+#photo img
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+}
+
+.tekst
+{
+	color: black;
+	text-align: justify;
+	margin-top: -40px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+#border-bottom3
+{
+	border-bottom: 1px solid #cccccc;
+}
+
+#footer
+{
+	width: 1000px;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+}
+ 
+ #linkedin
+{
+	text-decoration: none;
+	color: #0077b5;
+	font-weight: bold;
+}
+ 
+#linkedin:hover
+{
+	color: #0095e6;
+}
+ 
+#github
+{
+	text-decoration: none;
+	color: #171515;
+	font-weight: bold;
+}
+ 
+#github:hover
+{
+	color: #8c8c8c;
+}
+ 
+#cherry-it
+{
+	text-decoration: none;
+	color: #0073e6;
+	font-weight: bold;
+}
+ 
+#cherry-it:hover
+{
+	color: #4da6ff;
+}
+  
+#trello
+{
+	text-decoration: none;
+	color: #0073e6;
+	font-weight: bold;
+}
+  
+#trello:hover
+{
+	color: #ff751a;
+}
+  
+#str
+{
+	font-weight: bold;
+}

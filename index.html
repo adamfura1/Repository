@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+
+<html lang="pl">
+
+
+<head> 
+
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+	<meta name="description" content="Na razie brak contentu" />
+	<meta name="keywords" content="portfolio" />
+	
+	<title>Moje portfolio</title>
+	
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	 <script>
+	
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link').click(function() { $.scrollTo($('#o_mnie'), 700); });
+			
+		}
+		);
+		
+	</script>
+	
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<div id="page">
+		
+			<div class="topbar">
+				<div id="logo"><a href="#"><img src="portfolio.png"></a></div>
+				<div id="menu"><a href="#"><p><a id="link" href="#">O mnie</a></p></a></div>
+			</div>
+			
+			<div class="division">
+			
+				<div id="text">
+					<p id="str">Tester oprogramowania</p>
+					<p id="str">Adam Fura</p>
+					<br></br>
+					<br></br>
+					<p><span id="str">Zajmuję się testowaniem stron</span><span id="str">internetowych oraz aplikacji webowych</span></p>
+				</div>
+				<div id="photo">
+					<img src="zdjecie.png"/>
+				</div>
+				
+			</div>
+
+			<div class="tekst">
+				<br></br>
+				<br></br>
+				
+				<p>
+				<h3 id="o_mnie">Kim jestem?</h3>
+				W 2020 r. ukończyłem Administrację na Uniwersytecie Kardynała Stefana Wyszyńskiego w Warszawie. Od lutego 2020 do maja 2021 (z przerwą w lipcu 2020) pracowałem jako Inspektor w Wydziale Prawnym Wojskowego Instytutu Medycznego w Warszawie. Byłem odpowiedzialny za zarządzanie i sporządzanie pism windykacyjnych oraz prowadzeniem dokumentacji sądowej i medycznej.  
+				<br></br>
+				We wrześniu 2021 r. zacząłem naukę testowania oprogramowania. Równolegle uczyłem się programowania, a także poszerzałem swoją wiedzę z zakresu informatyki ogólnej. Obecnie zajmuję się testowaniem manualnym stron internetowych i aplikacji webowych. Od niedawna przeprowadzam pierwsze testy aplikacji mobilnych. Testowanie od początku nauki stało się moją pasją i w tym roku planuję również naukę testowania automatycznego. 
+				<br></br>
+				Mój profil na <a id="linkedin" href="https://www.linkedin.com/in/adam-fura-584630230/" target="_blank">LinkedIn</a> oraz <a id ="github" href="https://github.com/adamfura1" target="_blank">Githubie</a>
+				<br></br>
+
+				</h3>
+				<h3>Doświadczenie testerskie</h3>
+				Listopad 2021 - Styczeń 2022: udział w projekcie testerskim z inicjatywy <a id="cherry-it" href="http://cherry-it.pl/" target="_blank">cherry-it</a>. Projekt był prowadzony w metodyce Scrum. Aplikacja poddana testom - <a id="trello" href="https://trello.com/" target="_blank">Trello</a>.
+				<br></br>
+
+				</h3>
+				<h3>Umiejętności</h3>
+				Testowanie (poziom podstawowy): wiedza z zakresu sylabusa ISTQB Foundation Level, narzędzia: Jira, Postman, Git
+				<br></br>
+				Programowanie (poziom podstawowy): Python, SQL, HTML, CSS
+				<br></br>
+				Informatyka/ogólne (poziom podstawowy): sieci komputerowe, elektronika, algorytmy, MS Office, MS Excel, Linux. 
+				<br></br>
+				
+				</h3>
+				<h3>Zainteresowania</h3>
+				Interesuję się szachami, astronomią, tenisem ziemnym, sportami motorowymi, piłką nożną oraz technologią blockchain. 
+				</h3>
+				</p>
+			
+			</div>
+
+			<div id="border-bottom3"></div>
+
+			<div id="footer">
+				2022 &copy; Adam Fura - Portfolio.
+			</div>
+			
+		</div>
+
+	</div>
+	
+</body>
